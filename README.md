@@ -1,48 +1,33 @@
-分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
-
-"hoge"が何かを簡潔に紹介する
-
 # DEMO
-
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+* Javaを用いたCLIタイピングゲーム
 
 # Features
-
-"hoge"のセールスポイントや差別化などを説明する
+* ブラインドタッチが必須となるタイピングゲームとなっています。
+* タイピング速度と正確性の向上が見込めます。
 
 # Requirement
-
-"hoge"を動かすのに必要なライブラリなどを列挙する
-
-* huga 3.5.2
-* hogehuga 1.0.2
+* javaの開発キットJDK
 
 # Installation
+下記のリンクよりJDKのインストール
+* https://www.oracle.com/java/technologies/javase-downloads.html
 
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
-```bash
-pip install huga_package
-```
 
 # Usage
 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
+DEMOの実行方法
 ```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
+git clone https://github.com/t18cs027/typingGame_GUI.git
+cd t18cs027/src/
+javac Model.java
+cd t18cs027/bin
+./read_key.sh | Model
 ```
 
 # Note
-
-注意点などがあれば書く
+* read_keyが正しく動作しないことがあるためその際はもう一度cloneからやり直してみて下さい。
 
 # Author
-
-作成情報を列挙する
-
 * Ryodai Takata
 * university of Yamanashi
 * t18cs027@yamanashi.ac.jp
