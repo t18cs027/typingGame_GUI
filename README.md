@@ -1,16 +1,12 @@
 # DEMO
-* Javaを用いたCLIタイピングゲーム
+* Javaを用いたGUIタイピングゲーム
 
 # Features
-* ブラインドタッチが必須となるタイピングゲームとなっています。
-* タイピング速度と正確性の向上が見込めます。
+* ブラインドタッチが必須となるタイピングゲームとなっています.
+* タイピング速度と正確性の向上が見込めます.
+* どの爆弾から解除するかも考える必要があります.
 
 # Requirement
-* javaの開発キットJDK
-
-# Installation
-下記のリンクよりJDKのインストール
-* https://www.oracle.com/java/technologies/javase-downloads.html
 
 
 # Usage
