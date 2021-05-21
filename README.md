@@ -15,13 +15,13 @@ DEMOの実行方法
 ```bash
 git clone https://github.com/t18cs027/typingGame_GUI.git
 cd t18cs027/src/
-javac Model.java
+javac Game.java
 cd t18cs027/bin
-./read_key.sh | Model
+java Game
 ```
 
 # Note
-* read_keyが正しく動作しないことがあるためその際はもう一度cloneからやり直してみて下さい。
+難易度が鬼畜ですが頑張ってください.
 
 # Author
 * Ryodai Takata
